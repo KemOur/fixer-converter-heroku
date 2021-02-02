@@ -7,7 +7,7 @@
     </ion-header>
 
         <ion-content class="ion-padding">
-          <ion-img src="/assets/img/undraw_pay_online_b1hk.png" style="height: 150px"/>
+          <ion-img src="/assets/img/undraw_pay_online_b1hk.png" style="height: 350px"/>
 
           <Search :indexs="indexs" @change="Send" />
         </ion-content>
