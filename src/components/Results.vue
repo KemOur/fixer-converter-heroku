@@ -27,8 +27,8 @@
                     .then(res => res.json()) .then(response => {
                         let rates = Object.values(response.rates)
                         this.response = Math.round((this.change.euro * rates[0]) *100) / 100
-                        console.log(rates)
-                        console.log(this.response)
+                        //console.log(rates)
+                       // console.log(this.response)
                     })
                 }
             },
